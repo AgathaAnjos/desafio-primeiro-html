@@ -1,0 +1,288 @@
+<html>
+  <head>
+    <title>Testes em Html</title>
+  </head>
+  <body>
+
+aula 1 estrutura HTML
+<br>
+    <strong> <i> Meu primeiro HTML </i></strong>
+    <input type="=text" />
+    <br>
+    <img
+      width="300"
+      src="https://wbruno.com.br/wp-content/uploads/2013/05/a1.png"
+    />
+
+  <ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>
+      <ol>
+        <li>item 3.3</li>
+        <li>item 3.4</li>
+        <li>item 3.4</li>
+      </ol>
+    </li>
+  </ol>
+
+  <ul>
+    <li>item 1</li>
+    <li>item 1</li>
+    <li>item 1</li>
+  </ul>
+
+  <a
+    href="https://www.w3schools.com/html/html_classes.asp"
+    title="aaaaaa"
+    target="_blank"
+    >w3schools</a
+  >
+
+<br>
+aula 2 entendendo comandos básicos
+<br>
+   <form name="singup" autocomplete="on" onsubmit="alert(`Enviei o formulário`)"  method="post" action="#">
+        Nome: <input type="text" name="name"/></br>
+        Idade: <input type="number" name="age"/></br>
+        Senha: <input type="password" name="password"/></br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <br>
+aula 3 tipos de inputs
+<br>
+     <form>
+      <label>text: </label><input type="text" /><br />
+      <label>number: </label><input type="number" min="1" max="100" /><br />
+      <label>button: </label><input type="button" value="enviar" /><br />
+      <label>renge: </label><input type="range" min="9" max="7778" /><br />
+      <label>color: </label><input type="color" /><br />
+      <label>email: </label><input type="email" /><br />
+      <label>URL: </label><input type="url" /><br />
+      <label>date: </label><input type="date" /><br />
+      <label>week: </label><input type="week" /><br />
+      <label>month: </label><input type="month" /><br />
+      <label>checkbox: </label><input type="checkbox" />
+      <input type="checkbox" /><br />
+      <label>radio: </label><input type="radio" name="aceita" /><input
+        type="radio"
+        name="aceita"
+      /><br />
+      <label>hidden: </label><input type="hidden" name="bla" /><br />
+      <label>file: </label><input type="file" multiple /><br />
+      <label>search: </label><input type="search" /><br />
+    </form>
+
+    <br>
+aula 4 tipos de buttons
+<br>
+     <form>
+      <label>teste 1</label> <input type="text" name="name" />
+      <button type="button">clicável</button>
+      <label>teste 2</label> <input type="text" name="name" />
+      <button type="reset">limpar</button>
+      <label>teste 3</label> <input type="text" name="name" />
+      <button type="submit">envia</button>
+    </form>
+
+    <br>
+aula 4 tipos de select
+<br>
+    <form>
+      <label>cargo: </label>
+      <select name="role">
+        <option selected value="">Selecione o cargo</option>
+        <option value="gerente">gerente</option>
+        <option value="adm">adm</option>
+        <option value="RH">RH</option>
+        <option value="contabilidade">contabilidade</option>
+        <option value="TI">TI</option>
+      </select>
+    </form>
+
+    <br>
+aula 5 formatação de texto
+<br>
+    <i>Programe</i> o seu futuro agora! <br />
+    <b>Programe</b> o seu futuro agora! <br />
+    <u>Programe</u> o seu futuro agora! <br />
+    <mark>Programe</mark> o seu futuro agora! <br />
+    <sup>Programe</sup> o seu futuro agora! <br />
+    <sub>Programe</sub> o seu futuro agora! <br />
+    <strong>Programe</strong> o seu futuro agora! <br />
+    <blockquote>Programe</blockquote>
+    o seu futuro agora! <br />
+    <font color="red">Programe</font> o seu futuro agora! <br />
+    <font face="arial">Programe</font> o seu futuro agora! <br />
+    <font color="purple" face="Trebuchet MS">Programe</font> o seu futuro agora!
+    <br />
+
+    <br>
+aula 6 entendendo uma div e span
+<br>
+ <div>
+      <div id="links">
+        <!-- comando ol>li*3>a -->
+        <ol>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ol>
+      </div>
+    </div>
+
+<br>
+aula 7 entendendo o fieldset
+<br>
+    <fieldset>
+      <legend> teste de fieldset</legend>
+     <ol>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ol>
+        
+        </fieldset>
+
+<br>
+aula 8 entendo tabelas
+<br>
+          <style>
+      table tr:nth-child(even) {
+        background-color: aquamarine;
+      }
+    </style>
+    <table
+      summary="tabela de teste"
+      border="4"
+      width="500"
+      cellspacing=""
+      cellpadding=""
+      align="center"
+    >
+      <tr>
+        <th title="escreva seu nome completo">nome</th>
+        <th>Idade</th>
+      </tr>
+      <tr id="1">
+        <td>Agatha</td>
+        <td>18</td>
+      </tr>
+      <tr id="2">
+        <td>Amanda</td>
+        <td>19</td>
+      </tr>
+      <tr id="3">
+        <td>Alice</td>
+        <td>33</td>
+      </tr>
+      <tr id="4">
+        <td>Alessandra</td>
+        <td>98</td>
+      </tr>
+      <tr id="5">
+        <td>Ana</td>
+        <td>2</td>
+      </tr>
+    </table>
+
+    <br>
+aula 9 estilizando tabelas com css
+  <br>   
+     
+     <style>
+      table {
+        -webkit-box-shadow: 12px 14px 6px 5px;
+        box-shadow: 12px 14px 6px 5px;
+        border: solid 1px rgb(139, 0, 0);
+      }
+
+      table thead th {
+        background-color: aquamarine;
+        color: blue;
+      }
+      table tfoot {
+        background-color: rgb(73, 18, 105);
+        color: palegoldenrod;
+      }
+
+      table tbody tr:nth-child(even) {
+        background-color: teal;
+      }
+    </style>
+    <table width="250" align="center">
+      <caption>
+        tabela de idade
+      </caption>
+
+      <thead>
+        <tr>
+          <th colspan="2">nome</th>
+          <th rowspan="3">idade</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>agatha</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>vióla</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>hellen</td>
+          <td>200</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <td>3 nomes</td>
+        <td>3 idades</td>
+      </tfoot>
+    </table>
+
+     <main>
+      <article>
+        <p>qual seu prato favorito</p>
+        <article>churrasco</article>
+      </article>
+
+      <article>
+        <h1>conteudo html</h1>
+        <p>artigo publicado em <time pubdate> 02/07/2025 - 19h </time></p>
+        <p>aaaaa</p>
+        <p>aaaaa</p>
+        <p>aaaaa</p>
+        <p>aaaaa</p>
+        <p>aaaaa</p>
+        <article></article>
+      </article>
+    </main>
+    <footer></footer>
+
+     </body>
+</html>
+
+<!-- ANOTAÇÕES 
+ 
+Tags: dão estrutura ao conteúdo de uma página web
+
+    html: define o que é HTML 
+    head: carrega coisas antes de exibir para o usuário 
+    tittle: mostra o nome da aba  
+    body: mostra para o usuário as informações da página 
+    i: italic (fonte) 
+    strong: negrito
+    input: cria controles iterativos
+        pode ser uma caixa de texto, números, color etc.
+    img: adicionar imagens
+
+Atributos das tags: propriedades que uma tag pode ter
+
+    Globais: propriedades genéricas, todas as tegs teram
+    específicas: exclusiva de cada tag
+-->
